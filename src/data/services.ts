@@ -6,38 +6,23 @@ export type Service = {
 
 export const services: Service[] = [
     {
-        title: 'Soins des ongles',
-        description:
-            'Coupe et traitement professionnel des ongles, prise en charge des ongles incarnés et pathologies unguéales.',
-        icon: 'Scissors'
+        title: 'Soins de pédicurie',
+        description: 'Séance complète de 30 min pour traiter callosités, ongles incarnés et assurer un entretien impeccable.',
+        icon: 'HandHeart'
     },
     {
-        title: 'Orthèses plantaires',
-        description:
-            'Conception et réalisation de semelles orthopédiques sur mesure pour corriger les troubles de la marche.',
-        icon: 'Footprints'
-    },
-    {
-        title: 'Cors et durillons',
-        description: 'Traitement et élimination des cors, durillons et callosités pour un confort optimal.',
-        icon: 'Shield'
-    },
-    {
-        title: 'Podologie pédiatrique',
-        description:
-            'Suivi et soins spécialisés pour les pieds des enfants et adolescents avec bilan podologique détaillé.',
-        icon: 'Baby'
-    },
-    {
-        title: 'Podologie sportive',
-        description:
-            'Accompagnement des sportifs avec bilan podologique et conseils adaptés à votre pratique.',
+        title: 'Bilan podologique & postural',
+        description: 'Analyse globale de votre posture et conception de semelles orthopédiques parfaitement adaptées.',
         icon: 'Activity'
     },
     {
-        title: 'Pédicurie médicale',
-        description:
-            'Soins d’hygiène et de confort pour des pieds sains et en bonne santé.',
-        icon: 'HeartPulse'
+        title: 'Contrôle des semelles orthopédiques',
+        description: 'Vérification après 6 semaines (30 min) pour ajuster vos orthèses et garantir un confort optimal.',
+        icon: 'Footprints'
+    },
+    {
+        title: 'Traitement des verrues plantaires',
+        description: 'Protocole ciblé pour éliminer les verrues plantaires et prévenir les récidives.',
+        icon: 'ShieldCheck'
     }
 ]

@@ -13,32 +13,58 @@ export function About() {
                     </p>
                     <h2 className="mt-4 text-3xl font-semibold text-slate-900">Basile David, votre podologue à Paris</h2>
                     <p className="mt-4 text-base text-slate-600">
-                        Pédicure-Podologue diplômé d’État, je vous accueille dans mon cabinet pour tous vos soins podologiques. Je traite tous types
-                        de pathologies et m’adapte aux besoins spécifiques de chaque patient.
+                        Pédicure-podologue diplômé et ancien basketteur professionnel, je suis spécialisé dans l’analyse du mouvement et la prise en
+                        charge des douleurs liées au membre inférieur et de l’appareil locomoteur.
                     </p>
-                    <div className="mt-6 grid gap-4 rounded-3xl bg-white p-6 shadow-lg shadow-slate-900/5">
-                        <div>
-                            <p className="text-sm font-semibold text-slate-900">Mon parcours</p>
-                            <p className="mt-2 text-sm text-slate-600">
-                                Passionné par la santé du pied, je pratique la podologie depuis plusieurs années à Paris. Mon objectif est de vous offrir
-                                des soins de qualité dans un environnement professionnel et bienveillant.
-                            </p>
+                    <p className="mt-4 text-base text-slate-600">
+                        J’évalue précisément votre posture, vos appuis et votre dynamique de marche ou de course afin d’identifier l’origine des
+                        douleurs et d’y apporter une solution durable, que vous soyez sportif ou non.
+                    </p>
+                </div>
+            </div>
+            <div className="mx-auto mt-10 grid max-w-6xl gap-4 rounded-3xl bg-white p-6 shadow-lg shadow-slate-900/5">
+                <div>
+                    <p className="text-sm font-semibold text-slate-900">Mon parcours</p>
+                    <p className="mt-2 text-sm text-slate-600">
+                        Les soins peuvent inclure le traitement des affections de la peau et des ongles, la correction des troubles statiques et
+                        dynamiques, ainsi que la conception dans mon propre labo de semelles orthopédiques sur mesure adaptées au sport ou au
+                        quotidien.
+                    </p>
+                    <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-600">
+                        <li>Conseils personnalisés de chaussage et de prévention</li>
+                        <li>Optimisation de la stabilité, des appuis et du confort</li>
+                        <li>Retour à l’activité dans les meilleures conditions</li>
+                    </ul>
+                    <p className="mt-3 text-sm text-slate-600">
+                        Mon approche vise la performance et le bien-être: retrouver un corps plus efficace, plus confortable et pleinement
+                        fonctionnel grâce à la prévention et à l’optimisation par les préférences motrices.
+                    </p>
+                </div>
+                <div className="grid gap-4 sm:grid-cols-2">
+                    <div className="rounded-2xl bg-slate-50 p-4">
+                        <p className="text-xs uppercase tracking-wide text-slate-400">Diplômes nationaux et universitaires</p>
+                        <ul className="mt-3 space-y-2 text-sm text-slate-700">
+                            <li>Diplôme d'État de pédicure-podologue · École d'Assas · Paris</li>
+                        </ul>
+                        <div className="mt-5 border-t border-slate-200 pt-4">
+                            <p className="text-xs uppercase tracking-wide text-slate-400">Autres formations</p>
+                            <ul className="mt-3 space-y-2 text-sm text-slate-700">
+                                <li>2025 · Podologie et Préférence Motrice Niveau 1 · Volodalen</li>
+                            </ul>
                         </div>
-                        <div className="grid gap-4 sm:grid-cols-2">
-                            <div className="rounded-2xl bg-slate-50 p-4">
-                                <p className="text-xs uppercase tracking-wide text-slate-400">Qualifications & spécialités</p>
-                                <ul className="mt-3 space-y-2 text-sm text-slate-700">
-                                    <li>Diplôme d’État en Pédicurie-Podologie</li>
-                                    <li>Spécialiste en orthèses plantaires</li>
-                                    <li>Podologie sportive</li>
-                                    <li>Soins diabétiques</li>
-                                </ul>
-                            </div>
-                            <div className="rounded-2xl bg-slate-50 p-4">
-                                <p className="text-xs uppercase tracking-wide text-slate-400">Cabinet situé à</p>
-                                <p className="mt-3 text-sm font-semibold text-slate-900">Paris, France</p>
-                            </div>
+                        <div className="mt-5 border-t border-slate-200 pt-4">
+                            <p className="text-xs uppercase tracking-wide text-slate-400">Expérience</p>
+                            <ul className="mt-3 space-y-2 text-sm text-slate-700">
+                                <li>Stagiaire · Hôpital Privé Cognacq-Jay · Paris · nutrition / lymphologie / oncologie / palliatif</li>
+                                <li>Stagiaire · CRF de Villiers-sur-Marne · rééducation post-opératoire</li>
+                                <li>Stagiaire · Centre Hospitalier de Gonesse · diabétologie</li>
+                                <li>Stagiaire · Clinique Victor Hugo · Paris · chirurgie orthopédique</li>
+                            </ul>
                         </div>
+                    </div>
+                    <div className="rounded-2xl bg-slate-50 p-4">
+                        <p className="text-xs uppercase tracking-wide text-slate-400">Cabinet situé à</p>
+                        <p className="mt-3 text-sm font-semibold text-slate-900">Paris, France</p>
                     </div>
                 </div>
             </div>

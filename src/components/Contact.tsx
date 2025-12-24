@@ -8,12 +8,20 @@ export function Contact() {
                     </p>
                     <h2 className="mt-4 text-3xl font-semibold">Prenez rendez-vous</h2>
                     <p className="mt-4 text-slate-200">
-                        Contactez-nous pour prendre rendez-vous ou pour toute question. Nous vous répondrons rapidement.
+                        Contactez-moi pour prendre rendez-vous ou pour toute question. Je vous répondrai rapidement.
                     </p>
+                    <a
+                        href="https://www.doctolib.fr/pedicure-podologue/paris/basile-david/booking/motives?specialityId=8&telehealth=false&placeId=practice-702024&bookingFunnelSource=profile"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="mt-6 inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 transition hover:bg-slate-100"
+                    >
+                        Prendre rendez-vous sur Doctolib
+                    </a>
                     <div className="mt-8 space-y-4">
                         <div className="rounded-2xl bg-white/5 p-4">
                             <p className="text-sm text-slate-300">Téléphone</p>
-                            <p className="text-lg font-semibold">01 23 45 67 89</p>
+                            <p className="text-lg font-semibold">09 53 40 05 11</p>
                         </div>
                         <div className="rounded-2xl bg-white/5 p-4">
                             <p className="text-sm text-slate-300">Email</p>
@@ -21,11 +29,11 @@ export function Contact() {
                         </div>
                         <div className="rounded-2xl bg-white/5 p-4">
                             <p className="text-sm text-slate-300">Adresse</p>
-                            <p className="text-lg font-semibold">123 Avenue de la Santé, 75000 Paris</p>
+                            <p className="text-lg font-semibold">4 Rue Saint-Vincent de Paul, 75010 Paris</p>
                         </div>
                         <div className="rounded-2xl bg-white/5 p-4">
                             <p className="text-sm text-slate-300">Horaires</p>
-                            <p className="text-lg font-semibold">Lun-Ven · 9h-18h · Samedi 9h-13h</p>
+                            <p className="text-lg font-semibold">Lun-Ven · 9h-13h / 14h-19h & Samedi · 9h-14h</p>
                         </div>
                     </div>
                 </div>

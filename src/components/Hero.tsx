@@ -1,7 +1,5 @@
 import { highlights } from '../data/highlights'
-
-const heroImg =
-    'https://images.unsplash.com/photo-1503294405974-1ae79cfa675d?auto=format&fit=crop&w=900&q=80'
+import cabinet from '../assets/cabinet.webp'
 
 export function Hero() {
     return (
@@ -28,10 +26,10 @@ export function Hero() {
                             href="#services"
                             className="rounded-full border border-slate-200 px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-300"
                         >
-                            Nos services
+                            Mes services
                         </a>
                     </div>
-                    <div className="grid gap-4 rounded-3xl bg-white p-5 shadow-xl shadow-slate-900/5 sm:grid-cols-3">
+                    <div className="grid gap-4 rounded-3xl bg-white p-5 shadow-xl shadow-slate-900/5 sm:grid-cols-2">
                         {highlights.map((item) => (
                             <div key={item.label} className="text-left">
                                 <p className="text-xs uppercase tracking-wide text-slate-400">{item.label}</p>
@@ -43,15 +41,15 @@ export function Hero() {
                 <div className="relative w-full max-w-lg">
                     <div className="rounded-[32px] bg-white p-4 shadow-2xl shadow-slate-900/10">
                         <img
-                            src={heroImg}
+                            src={cabinet}
                             alt="Salle de podologie"
                             className="h-[420px] w-full rounded-[24px] object-cover"
                         />
                     </div>
-                    <div className="absolute -bottom-8 left-8 rounded-2xl bg-white px-6 py-4 shadow-xl shadow-slate-900/10">
+                    {/* <div className="absolute -bottom-8 left-8 rounded-2xl bg-white px-6 py-4 shadow-xl shadow-slate-900/10">
                         <p className="text-4xl font-semibold text-slate-900">15+</p>
                         <p className="text-sm text-slate-500">Années d’expérience</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </header>
