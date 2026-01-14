@@ -1,12 +1,10 @@
 import { useEffect, useState } from 'react'
 
-import basketOne from '../assets/basket_1.jpg'
 import basketTwo from '../assets/basket_2.jpg'
 import portrait from '../assets/portrait.webp'
 
 const aboutSlides = [
     { src: portrait, alt: 'Basile David en consultation' },
-    { src: basketOne, alt: 'Basile David en action sur un terrain' },
     { src: basketTwo, alt: 'Analyse biomécanique en mouvement' },
 ]
 
