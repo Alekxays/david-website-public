@@ -1,6 +1,6 @@
 import { Menu } from 'lucide-react'
 import { useState } from 'react'
-import logo from '../assets/logo.png'
+import logo from '../assets/logo1.png'
 
 const links = [
     { label: 'Accueil', href: '#hero' },
