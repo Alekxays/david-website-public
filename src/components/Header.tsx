@@ -1,5 +1,6 @@
 import { Menu } from 'lucide-react'
 import { useState } from 'react'
+import logo from '../assets/logo.png'
 
 const links = [
     { label: 'Accueil', href: '#hero' },
@@ -14,7 +15,7 @@ export function Header() {
         <header className="sticky top-0 z-50 border-b border-white/60 bg-white/80 backdrop-blur-xl">
             <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
                 <a href="#hero" className="flex items-center gap-3">
-                    <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-900 text-white font-semibold">BD</span>
+                    <img src={logo} alt="Basile David Logo" className="h-10 w-10 items-center justify-center rounded-2xl" />
                     <div>
                         <p className="text-sm font-semibold text-slate-900">Basile David</p>
                         <p className="text-xs text-slate-500">Pédicure-Podologue D.E.</p>

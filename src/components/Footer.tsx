@@ -10,8 +10,12 @@ export function Footer() {
                     <p>© {new Date().getFullYear()} Cabinet Podologie. Tous droits réservés.</p>
                 </div>
                 <div className="flex gap-4 text-sm">
-                    <a href="#">Mentions légales</a>
-                    <a href="#">Politique de confidentialité</a>
+                    <a href="/mentions-legales.html" className="transition hover:text-white">
+                        Mentions légales
+                    </a>
+                    <a href="/politique-confidentialite.html" className="transition hover:text-white">
+                        Politique de confidentialité
+                    </a>
                 </div>
             </div>
         </footer>

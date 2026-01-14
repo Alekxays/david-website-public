@@ -25,11 +25,18 @@ export function Contact() {
                         </div>
                         <div className="rounded-2xl bg-white/5 p-4">
                             <p className="text-sm text-slate-300">Email</p>
-                            <p className="text-lg font-semibold">contact@cabinet-podologie.fr</p>
+                            <p className="text-lg font-semibold">basile.david10pro@gmail.com</p>
                         </div>
                         <div className="rounded-2xl bg-white/5 p-4">
                             <p className="text-sm text-slate-300">Adresse</p>
                             <p className="text-lg font-semibold">4 Rue Saint-Vincent de Paul, 75010 Paris</p>
+                        </div>
+                        <div className="rounded-2xl bg-white/5 p-4">
+                            <p className="text-sm text-slate-300">Localisation</p>
+                            <p className="text-lg font-semibold">Retrouvez le cabinet sur la carte</p>
+                            <div className="mt-4 overflow-hidden rounded-2xl border border-white/10">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d830.3018805449393!2d2.3499873548555756!3d48.87935172888506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e6c7152c3cb%3A0x46e414ea5bbb000!2s4%20Rue%20Saint-Vincent%20de%20Paul%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1768394759811!5m2!1sfr!2sfr" width="600" height="450" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
                         </div>
                         <div className="rounded-2xl bg-white/5 p-4">
                             <p className="text-sm text-slate-300">Horaires</p>
