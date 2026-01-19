@@ -1,7 +1,7 @@
 export function Contact() {
     return (
         <section id="contact" className="bg-slate-950 py-16 text-white">
-            <div className="mx-auto grid max-w-6xl gap-10 px-6 lg:grid-cols-2">
+            <div className="mx-auto grid max-w-6xl items-start gap-10 px-6 lg:grid-cols-2">
                 <div>
                     <p className="inline-flex rounded-full bg-white/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-slate-200">
                         Contact
@@ -35,7 +35,14 @@ export function Contact() {
                             <p className="text-sm text-slate-300">Localisation</p>
                             <p className="text-lg font-semibold">Retrouvez le cabinet sur la carte</p>
                             <div className="mt-4 overflow-hidden rounded-2xl border border-white/10">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d830.3018805449393!2d2.3499873548555756!3d48.87935172888506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e6c7152c3cb%3A0x46e414ea5bbb000!2s4%20Rue%20Saint-Vincent%20de%20Paul%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1768394759811!5m2!1sfr!2sfr" width="600" height="450" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe
+                                    className="block h-72 w-full"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d830.3018805449393!2d2.3499873548555756!3d48.87935172888506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e6c7152c3cb%3A0x46e414ea5bbb000!2s4%20Rue%20Saint-Vincent%20de%20Paul%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1768394759811!5m2!1sfr!2sfr"
+                                    allowFullScreen
+                                    loading="lazy"
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                    title="Localisation du cabinet"
+                                ></iframe>
                             </div>
                         </div>
                         <div className="rounded-2xl bg-white/5 p-4">
